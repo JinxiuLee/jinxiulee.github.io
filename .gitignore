@@ -1,0 +1,7 @@
+node_modules/*
+templates/*
+Markdown/*
+less/*
+js/*
+website.sublime-project
+website.sublime-workspace
