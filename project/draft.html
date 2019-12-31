@@ -1,220 +1,187 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="name" content="content">
-  <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-  <meta name="description" content="">
-  <link rel="icon" type="image/x-icon" href="/public/img/favicon.ico">
-  <title>Draft - Jack Lee</title>
-  <link rel="stylesheet" href="/public/css/main.css" charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="name" content="content">
+    <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="/public/img/favicon.ico">
+    <title>Draft - Jack Lee</title>
+    <link rel="stylesheet" href="/public/css/main.css" charset="utf-8">
 </head>
+
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>
-        <a class="logo" href="/">JACK LEE</a>
-      </h1>
-      <nav>
-        <a href="/#projects" class="nav-item">PROJECTS</a>
-        <a href="/about.html" class="nav-item">ABOUT</a>
-      </nav>
-    </header>
-    <main>
-
-      <div class="main-wrapper">
-        <p class="main-title">Draft</p>
-        <p class="main-des">
-          Design & Development
-        </p>
-      </div>
-
-      <div class="content">
-
-        <h3>Story behind</h3>
-
-        <p>As a designer and developer in an IT company, I spend a lot of time on Chrome every day. While I rarely use the functions Chrome provide on the new tab page. So I decided to redesign it to be something better.</p>
-
-        <p>I got the inspiration from paper(I mean the partner of pencil not the app :D). With only a piece of paper and a pen, we take notes, daily todos, inspirations, make calculations and almost anything just
-        I think Chrome new tab page is just a perfect place to do all the things mentioned above. It shows up whenever user opens a tab and provides enough space. Sometimes comparing to open an heavy app, a tab is far more easier.</p>
-
-        <p>So I started to make it from sketch step by step, from a MVP to 0.1.1. Now it has grown from my first little side project to a product used by thousands of people every day. <a href="https://chrome.google.com/webstore/detail/nmfjkeiebceinkbggliapgfdjphocpdh/publish-delayed?utm_source=porfolio" target="_blank">Try it now.</a></p>
-
-        <h3>MVP</h3>
-
-        <p>In the first MVP version, I just did one thing.</p>
-
-        <h4>Turn a new tab page into a draft paper</h4>
-        <p><strong>Write &amp; Save notes</strong></p>
-
-        <p>The new tab page is changed into a white draft paper. Users can open a tab and start to type. Whatever they typed will be saved in the browser local storage. Next time, when a new tab is opened, the notes which had been saved will be shown right on the new tab page.
-        <img src="/public/img/draft/mvp-save.gif" alt="image" class="border" /></p>
-
-        <p><strong>Make calculations</strong></p>
-
-        <p>The calculator which system provides does not show the process of calculation.
-        It is not the way people used to do calculations on draft paper.
-        Here's how Draft does:
-        <img src="/public/img/draft/mvp-calculation.gif" alt="image" class="border" /></p>
-
-        <h4>Design</h4>
-
-        <p>Since I made it just like a piece of paper, the interface design part was very easy.<br>
-           The most challenging part was how to design the feedback strategy to get more feedbacks from users.
-        </p>
-
-        <p><strong>Feedback Strategy</strong></p>
-        <p>In a MVP version, getting more feedbacks is one of the most important goals.
-        Here is the feedback strategy I've designed to get the goal.</p>
-
-        <ol>
-        <li><p>A feedback button was put at an obvious position. So user can make feedback whenever they want.
-        <img src="/public/img/draft/mvp-feedback.jpg" alt="image" class="border" /></p></li>
-
-        <li><p>Ask the right question at right time. Even if there's a feedback button at a very obvious place, user may probably not take the initiative to give us feedback.
-        So a feedback question is designed to be shown on the screen which will not disturb user's normal work at the 200th time user open Draft tab. Since people tend to answer multi-choice question, the feedback question is started with a very simple quesion "What do you think of our product? Good/Bad"
-        <img src="/public/img/draft/mvp-feedback-show.gif" alt="image" class="border" /></p></li>
-
-        <li><p>Lead to do different things. In order to get more good rates and more valuable feedbacks, users were seperated into two groups depending on their choices.
-        For the users who rate Good were lead to rate 5 stars in the Chrome App Store.
-        For the users who rate Bad, a simple form was shown to let them to write feedbacks.
-        And all the feedbacks will be sent to the Google Analytics system.
-        <img src="/public/img/draft/mvp-feedback-good.gif" alt="image" class="border" />
-        <img src="/public/img/draft/mvp-feedback-bad.gif" alt="image" class="border" /></p>
-        </li>
-        <li><p>Make statistics. In order to know more about user behaviour, I added Google Event Analytics to user event, so that designs can be driven by the data.</p></li>
-        </ol>
-
-        <h4>Marketing</h4>
-
-        <p>In order to test the idea and let more users know my product, I made the steps below to promote my product:</p>
-
-        <ol>
-          <li>Publishing Draft on the media platform like Producthunt and Next 36kr.</li>
-          <li>Actively communicating with the users in the comment area of the articles about Chrome Extension. And track the link with Google url shortener.</li>
-          <li>Writing answers to the questions related to Chrome Extensions on Quora, Zhihu and Reddit.</li>
-          <li>Presenting a share meeting in our company to share how to use of Chrome Extension and give some suggestions.</li>
-        </ol>
-
-        <p>
-          New Tab Draft was also suggested by <a href="http://iblogmagazine.com/resource/new-tab-draft/">iBlog Magazine</a>.
-        </p>
-
-        <img src="/public/img/draft/mvp-marketing.png" alt="image" />
-
-        <h3>Version 0.1.1</h3>
-
-        <p>After publishing the MVP version, I didn't get time to update it until 1 year later.
-          In the 1 year running, Draft has got a lot of feedbacks from users and I am deeply encouraged and inspired by them.
-        </p>
-        <p>
-          From the Google Analysis, feedback and marketing strategy was proved to be very successful.
-        </p>
-        <img src="/public/img/draft/0.1.1-users.png" alt="image" class="border" /></p>
-        <img src="/public/img/draft/0.1.1-feedback-statistics.png" class="width-500 border" alt="image" class="border" /></p>
-
-        <p>I collected all the feedbacks from GA & Chrome Web Store and put them into a Google Sheet.
-        <img src="/public/img/draft/0.1.1-feedback-list.png" alt="image" class="width-600 border" class="border" /></p>
-
-        <p>WYSIWYG feature was at the top of the feature list, which doesn't match my original motivation to make a pure and simple draft paper.
-        It will make Draft very heavier and probably slow down the opening speed of new tab.</p>
-
-        <p>So I decided to set aside this need and focus more on the user experience &amp; user stickiness.</p>
-
-        <h4>Changes in 0.1.1</h4>
-
-        <p><strong>Customisation</strong></p>
-
-        <p>The second top need was customisation. So in order to increase user stickiness and let user make their own new tab style, I added customisation function into 0.1.1.</p>
-
-        <p>Customization items include:</p>
-
-        <ul>
-          <li>Font Family</li>
-          <li>Font Size</li>
-          <li>Font Color</li>
-          <li>Background Color</li>
-        </ul>
-
-
-        <p><strong>Protect User Privacy</strong></p>
-
-        <p>From the feedback, I found that a lot of users really care about where exactly I saved the data and their privacy.
-        So I described more clearly about it in the Chrome App Store and in order to protect user privacy, text user typed will be blured when user haven't used Chrome for 2 minutes.</p>
-
-        <p><img src="/public/img/draft/0.1.1-protect.gif" alt="image" class="border" /></p>
-
-        <p><strong>Save Draft</strong></p>
-
-        <p>Let users save Draft with shortcut CMD/CTRL + S.</p>
-
-        <p><strong>Facebook Page &amp; Google+ Community</strong></p>
-
-        <p>In order to take a closer step with users and let users help spread Draft with other users, I started Facebook Page &amp; Google+ Community .</p>
-
-        <h3>Hi-fi Mockups</h3>
-        <p>
-          <img src="/public/img/draft/hifi-mockup/1.png" alt="image" class="border" /></p>
-          <img src="/public/img/draft/hifi-mockup/2.png" alt="image" class="border" /></p>
-          <img src="/public/img/draft/hifi-mockup/3.png" alt="image" class="border" /></p>
-          <img src="/public/img/draft/hifi-mockup/4.png" alt="image" class="border" /></p>
-        </p>
-      </div>
-
-      <!-- Projects -->
-      <h2 id="projects">Projects</h2>
-      <a class="project-item" href="/project/awake.html">
-        <p class="project-name">
-          Awake
-        </p>
-        <p class="project-des">
-          An open source design and creative platform
-        </p>
-        <p class="project-role">
-          Design
-        </p>
-      </a>
-      <a class="project-item" href="/project/mark.html">
-        <p class="project-name">
-          Mark
-        </p>
-        <p class="project-des">
-          A better way to manage your knowledge and share with others
-        </p>
-        <p class="project-role">
-          Design
-        </p>
-      </a>
-      <a class="project-item" href="/project/draft.html">
-        <p class="project-name">
-          Draft
-        </p>
-        <p class="project-des">
-          When new tab page becomes the place to make draft
-        </p>
-        <p class="project-role">
-          Design & Development
-        </p>
-      </a>
-      <a class="project-item" href="/project/zuidays.html">
-        <p class="project-name">
-          ZUI Days
-        </p>
-        <p class="project-des">
-          Help countdown the days that matter to you
-        </p>
-        <p class="project-role">
-          Design
-        </p>
-      </a>
-    <footer>
-      <p class="copyright">
-        <span>©</span>
-        <span class="year">2016</span>
-        <span>Jack Lee</span>
-      </p>
-    </footer>
-  </div>
-  <script src="/public/js/bundle.js"></script>
+    <div class="wrapper">
+        <header>
+            <h1>
+                <a class="logo" href="/">JACK LEE</a>
+            </h1>
+            <nav>
+                <a href="/#projects" class="nav-item">PROJECTS</a>
+                <a href="/about.html" class="nav-item">ABOUT</a>
+            </nav>
+        </header>
+        <main>
+            <div class="main-wrapper">
+                <p class="main-title">Draft</p>
+                <p class="main-des">
+                    Design & Development
+                </p>
+            </div>
+            <div class="content">
+                <h3>Story behind</h3>
+                <p>As a designer and developer in an IT company, I spend a lot of time on Chrome every day. While I rarely use the functions Chrome provide on the new tab page. So I decided to redesign it to be something better.</p>
+                <p>I got the inspiration from paper(I mean the partner of pencil not the app :D). With only a piece of paper and a pen, we take notes, daily todos, inspirations, make calculations and almost anything just
+                    I think Chrome new tab page is just a perfect place to do all the things mentioned above. It shows up whenever user opens a tab and provides enough space. Sometimes comparing to open an heavy app, a tab is far more easier.</p>
+                <p>So I started to make it from sketch step by step, from a MVP to 0.1.1. Now it has grown from my first little side project to a product used by thousands of people every day. <a href="https://chrome.google.com/webstore/detail/nmfjkeiebceinkbggliapgfdjphocpdh/publish-delayed?utm_source=porfolio" target="_blank">Try it now.</a></p>
+                <h3>MVP</h3>
+                <p>In the first MVP version, I just did one thing.</p>
+                <h4>Turn a new tab page into a draft paper</h4>
+                <p><strong>Write &amp; Save notes</strong></p>
+                <p>The new tab page is changed into a white draft paper. Users can open a tab and start to type. Whatever they typed will be saved in the browser local storage. Next time, when a new tab is opened, the notes which had been saved will be shown right on the new tab page.
+                    <img src="/public/img/draft/mvp-save.gif" alt="image" class="border" /></p>
+                <p><strong>Make calculations</strong></p>
+                <p>The calculator which system provides does not show the process of calculation.
+                    It is not the way people used to do calculations on draft paper.
+                    Here's how Draft does:
+                    <img src="/public/img/draft/mvp-calculation.gif" alt="image" class="border" /></p>
+                <h4>Design</h4>
+                <p>Since I made it just like a piece of paper, the interface design part was very easy.<br>
+                    The most challenging part was how to design the feedback strategy to get more feedbacks from users.
+                </p>
+                <p><strong>Feedback Strategy</strong></p>
+                <p>In a MVP version, getting more feedbacks is one of the most important goals.
+                    Here is the feedback strategy I've designed to get the goal.</p>
+                <ol>
+                    <li>
+                        <p>A feedback button was put at an obvious position. So user can make feedback whenever they want.
+                            <img src="/public/img/draft/mvp-feedback.jpg" alt="image" class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Ask the right question at right time. Even if there's a feedback button at a very obvious place, user may probably not take the initiative to give us feedback.
+                            So a feedback question is designed to be shown on the screen which will not disturb user's normal work at the 200th time user open Draft tab. Since people tend to answer multi-choice question, the feedback question is started with a very simple quesion "What do you think of our product? Good/Bad"
+                            <img src="/public/img/draft/mvp-feedback-show.gif" alt="image" class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Lead to do different things. In order to get more good rates and more valuable feedbacks, users were seperated into two groups depending on their choices.
+                            For the users who rate Good were lead to rate 5 stars in the Chrome App Store.
+                            For the users who rate Bad, a simple form was shown to let them to write feedbacks.
+                            And all the feedbacks will be sent to the Google Analytics system.
+                            <img src="/public/img/draft/mvp-feedback-good.gif" alt="image" class="border" />
+                            <img src="/public/img/draft/mvp-feedback-bad.gif" alt="image" class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Make statistics. In order to know more about user behaviour, I added Google Event Analytics to user event, so that designs can be driven by the data.</p>
+                    </li>
+                </ol>
+                <h4>Marketing</h4>
+                <p>In order to test the idea and let more users know my product, I made the steps below to promote my product:</p>
+                <ol>
+                    <li>Publishing Draft on the media platform like Producthunt and Next 36kr.</li>
+                    <li>Actively communicating with the users in the comment area of the articles about Chrome Extension. And track the link with Google url shortener.</li>
+                    <li>Writing answers to the questions related to Chrome Extensions on Quora, Zhihu and Reddit.</li>
+                    <li>Presenting a share meeting in our company to share how to use of Chrome Extension and give some suggestions.</li>
+                </ol>
+                <p>
+                    New Tab Draft was also suggested by <a href="http://iblogmagazine.com/resource/new-tab-draft/">iBlog Magazine</a>.
+                </p>
+                <img src="/public/img/draft/mvp-marketing.png" alt="image" />
+                <h3>Version 0.1.1</h3>
+                <p>After publishing the MVP version, I didn't get time to update it until 1 year later.
+                    In the 1 year running, Draft has got a lot of feedbacks from users and I am deeply encouraged and inspired by them.
+                </p>
+                <p>
+                    From the Google Analysis, feedback and marketing strategy was proved to be very successful.
+                </p>
+                <img src="/public/img/draft/0.1.1-users.png" alt="image" class="border" /></p>
+                <img src="/public/img/draft/0.1.1-feedback-statistics.png" class="width-500 border" alt="image" class="border" /></p>
+                <p>I collected all the feedbacks from GA & Chrome Web Store and put them into a Google Sheet.
+                    <img src="/public/img/draft/0.1.1-feedback-list.png" alt="image" class="width-600 border" class="border" /></p>
+                <p>WYSIWYG feature was at the top of the feature list, which doesn't match my original motivation to make a pure and simple draft paper.
+                    It will make Draft very heavier and probably slow down the opening speed of new tab.</p>
+                <p>So I decided to set aside this need and focus more on the user experience &amp; user stickiness.</p>
+                <h4>Changes in 0.1.1</h4>
+                <p><strong>Customisation</strong></p>
+                <p>The second top need was customisation. So in order to increase user stickiness and let user make their own new tab style, I added customisation function into 0.1.1.</p>
+                <p>Customization items include:</p>
+                <ul>
+                    <li>Font Family</li>
+                    <li>Font Size</li>
+                    <li>Font Color</li>
+                    <li>Background Color</li>
+                </ul>
+                <p><strong>Protect User Privacy</strong></p>
+                <p>From the feedback, I found that a lot of users really care about where exactly I saved the data and their privacy.
+                    So I described more clearly about it in the Chrome App Store and in order to protect user privacy, text user typed will be blured when user haven't used Chrome for 2 minutes.</p>
+                <p><img src="/public/img/draft/0.1.1-protect.gif" alt="image" class="border" /></p>
+                <p><strong>Save Draft</strong></p>
+                <p>Let users save Draft with shortcut CMD/CTRL + S.</p>
+                <p><strong>Facebook Page &amp; Google+ Community</strong></p>
+                <p>In order to take a closer step with users and let users help spread Draft with other users, I started Facebook Page &amp; Google+ Community .</p>
+                <h3>Hi-fi Mockups</h3>
+                <p>
+                    <img src="/public/img/draft/hifi-mockup/1.png" alt="image" class="border" /></p>
+                <img src="/public/img/draft/hifi-mockup/2.png" alt="image" class="border" /></p>
+                <img src="/public/img/draft/hifi-mockup/3.png" alt="image" class="border" /></p>
+                <img src="/public/img/draft/hifi-mockup/4.png" alt="image" class="border" /></p>
+                </p>
+            </div>
+            <!-- Projects -->
+            <h2 id="projects">Projects</h2>
+            <a class="project-item" href="/project/superhero.html">
+                <p class="project-name">
+                    Superhero
+                </p>
+                <p class="project-des">
+                    Mercedes-Benz luxury car rental platform
+                </p>
+                <p class="project-role">
+                    Design
+                </p>
+            </a>
+            <a class="project-item" href="/project/awake.html">
+                <p class="project-name">
+                    AWAKE
+                </p>
+                <p class="project-des">
+                    An open source design and creative platform
+                </p>
+                <p class="project-role">
+                    Design
+                </p>
+            </a>
+            <a class="project-item" href="/project/mark.html">
+                <p class="project-name">
+                    Mark
+                </p>
+                <p class="project-des">
+                    A better way to manage your knowledge and share with others
+                </p>
+                <p class="project-role">
+                    Design
+                </p>
+            </a>
+            <a class="project-item" href="/project/draft.html">
+                <p class="project-name">
+                    Draft
+                </p>
+                <p class="project-des">
+                    When new tab page becomes the place to make draft
+                </p>
+                <p class="project-role">
+                    Design & Development
+                </p>
+            </a>
+            <footer>
+                <p class="copyright">
+                    <span>©</span>
+                    <span class="year">2016</span>
+                    <span>Jack Lee</span>
+                </p>
+            </footer>
+    </div>
+    <script src="/public/js/bundle.js"></script>
 </body>
+
 </html>
