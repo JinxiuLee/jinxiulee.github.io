@@ -462,7 +462,7 @@ nav {
   opacity: .54;
 }
 .main-wrapper {
-  padding: 220px 0 320px;
+  padding: 220px 0 280px;
 }
 .main-title {
   font-size: 68px;
@@ -477,7 +477,7 @@ nav {
 }
 @media (max-width: 800px) {
   .main-wrapper {
-    padding: 100px 0 160px;
+    padding: 100px 0 30px;
   }
   .main-title {
     font-size: 34px;
