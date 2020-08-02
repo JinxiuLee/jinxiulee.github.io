@@ -5,3 +5,5 @@ less/*
 js/*
 website.sublime-project
 website.sublime-workspace
+.DS_Store
+*.pdf
